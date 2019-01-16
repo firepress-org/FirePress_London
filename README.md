@@ -52,8 +52,8 @@ In short, you can try Ghost on the spot without having to sign-up!
 - **Drop-in replacement** — No special tweaks to do. It will work out of the box.
 - **Enhancements** — This theme has been enhanced to feature some elements that are not present in the original theme. IMHO, these elements are hard to live without.
     - Buttons (three styles)
-    - Icons (Font Awesome 5)
-    - Code Syntax (highlight.js) 
+    - Icons (Font Awesome)
+    - Code Syntax (highlight.js)
     - Tables (Grid) (great to make pricing table)
 - **Code Injection** — We share snippets that improve the look of this theme via this [Git repo](https://github.com/firepress-org/Code-Injection-Ghost). It’s an easy way to customize this theme. This allows you to override pretty much any styles you want to change.
 - **Curated** — This theme was carefully selected out of hundreds of Ghost themes. See more of them in our [Ghost-Theme-Curated-Collection ](https://github.com/firepress-org/Ghost-Theme-Curated-Collection/tree/master/01_go) repo, or [by tags on Github](https://github.com/topics/firepress-ghost-theme).
