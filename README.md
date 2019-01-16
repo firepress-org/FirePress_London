@@ -1,62 +1,147 @@
-# London
+&nbsp;
 
-A custom, image-centric theme for [Ghost](http://github.com/tryghost/ghost/). Made for publishers and portfolios with plenty of graphics to show off to the world. Completely free and fully responsive, released under the MIT license.
+<p align="center">
+  <a href="https://firepress.org/">
+    <img src="https://user-images.githubusercontent.com/6694151/50166045-2cc53000-02b4-11e9-8f7f-5332089ec331.jpg" width="340px" alt="FirePress" />
+  </a>
+</p>
 
-**Demo: https://london.ghost.io**
+<p align="center">
+    <a href="https://firepress.org/">FirePress.org</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="https://play-with-ghost.com/">play-with-ghost.org</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="https://github.com/firepress-org/">GitHub</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="https://twitter.com/askpascalandy">Twitter</a>
+    <br /> <br />
+</p>
 
 &nbsp;
 
-![london](https://user-images.githubusercontent.com/120485/50552024-84837400-0c82-11e9-8f1d-cf25962c7e62.jpg)
+
+# FirePress_London
 
 
-&nbsp;
+## What is this?
 
-# First time using a Ghost theme?
+This theme is a free and responsive theme (*template if you prefer*) made for Ghost. This theme is compatible with Ghost `>= 2.0.0`. You can check this information in the file `package.json`.
 
-Ghost uses a simple templating language called [Handlebars](http://handlebarsjs.com/) for its themes.
+**What is Ghost?** — Ghost is an open source software that lets you create a website and manage content like a blog. [See our FAQ section](https://firepress.org/en/faq/#what-is-ghost) for more details.
 
-We've documented our default theme pretty heavily so that it should be fairly easy to work out what's going on just by reading the code and the comments. Once you feel comfortable with how everything works, we also have full [theme API documentation](https://themes.ghost.org) which explains every possible Handlebars helper and template.
+**Live demo** — This theme is available on play-with-ghost.
 
-**The main files are:**
-
-- `default.hbs` - The main template file
-- `index.hbs` - Used for the home page
-- `post.hbs` - Used for individual posts
-- `page.hbs` - Used for individual pages
-- `tag.hbs` - Used for tag archives
-- `author.hbs` - Used for author archives
-
-One neat trick is that you can also create custom one-off templates just by adding the slug of a page to a template file. For example:
-
-- `page-about.hbs` - Custom template for the `/about/` page
-- `tag-news.hbs` - Custom template for `/tag/news/` archive
-- `author-ali.hbs` - Custom template for `/author/ali/` archive
+<br>
 
 
-# Development
+## Live Demo
 
-London styles are compiled using Gulp/PostCSS to polyfill future CSS spec. You'll need [Node](https://nodejs.org/), [Yarn](https://yarnpkg.com/) and [Gulp](https://gulpjs.com) installed globally. After that, from the theme's root directory:
+[play-with-ghost.com](https://play-with-ghost.com/) is a playground to learn about Ghost. What's remarkable here, is that you have the option to log in into the admin panel of each live demo available, by using dummy credentials.
 
-```bash
-$ yarn install
-$ yarn dev
-```
+In short, you can try Ghost on the spot without having to sign-up!
 
-Now you can edit `/assets/css/` files, which will be compiled to `/assets/built/` automatically.
+<br>
 
-The `zip` Gulp task packages the theme files into `dist/<theme-name>.zip`, which you can then upload to your site.
+[![pwg-video-preview-e](https://user-images.githubusercontent.com/6694151/50233512-9bbc8a80-0381-11e9-83bb-f29a67000378.jpg)
+](https://play-with-ghost.com/)
 
-```bash
-$ yarn zip
-```
+**Bonus** — The live demo sites feature a post named **Style guide**. It gives you the big picture of how this theme renders elements like titles, quotes, paragraphs, button tables, etc.
 
-# PostCSS Features Used
-
-- Autoprefixer - Don't worry about writing browser prefixes of any kind, it's all done automatically with support for the latest 2 major versions of every browser.
-- Variables - Simple pure CSS variables
-- [Color Function](https://github.com/postcss/postcss-color-function)
+<br>
 
 
-# Copyright & License
+## Why fork this Ghost Theme?
 
-Copyright (c) 2013-2019 Ghost Foundation - Released under the [MIT license](LICENSE).
+- **Drop-in replacement** — No special tweaks to do. It will work out of the box.
+- **Enhancements** — This theme has been enhanced to feature some elements that are not present in the original theme. IMHO, these elements are hard to live without.
+    - Buttons (three styles)
+    - Icons (Font Awesome 5)
+    - Code Syntax (highlight.js) 
+    - Tables (Grid) (great to make pricing table)
+- **Code Injection** — We share snippets that improve the look of this theme via this [Git repo](https://github.com/firepress-org/Code-Injection-Ghost). It’s an easy way to customize this theme. This allows you to override pretty much any styles you want to change.
+- **Curated** — This theme was carefully selected out of hundreds of Ghost themes. See more of them in our [Ghost-Theme-Curated-Collection ](https://github.com/firepress-org/Ghost-Theme-Curated-Collection/tree/master/01_go) repo, or [by tags on Github](https://github.com/topics/firepress-ghost-theme).
+
+<br>
+
+
+## Screenshots
+
+<br>
+
+![firepress_london_a](https://user-images.githubusercontent.com/6694151/51268851-f3eda900-198e-11e9-97bc-a6c71f221a33.jpeg)
+
+<br>
+
+![firepress_london_b](https://user-images.githubusercontent.com/6694151/51268882-049e1f00-198f-11e9-84a9-a184d2d39c5b.jpeg)
+
+<br>
+
+![firepress_london_c](https://user-images.githubusercontent.com/6694151/51268890-0b2c9680-198f-11e9-865b-01932285eec3.jpeg)
+
+<br>
+
+
+## Services
+
+#### Hosting
+
+**At FirePress we host Ghost’s websites with an optional landing page**. It's fully managed for you. It means you never have to touch a server, do an upgrade, manage backups or any annoying stuff like this.
+
+The idea behind FirePress is to empower freelancers and small organizations to be able to build an outstanding mobile-first website.
+
+Because we believe your website should speak up in your name, we consider our mission completed once your site has become [your impresario](https://firepress.org/en/why-launching-your-next-website-with-firepress/). Start your [free trial here](https://firepress.org/en/10-day-free-trial/). 
+
+#### Workshop
+
+Participants will end up with a website and/or a blog they can smoothly operate themselves. We are actively working on this workshop.
+
+The workshops will be available in those cities:
+
+- Montréal - Canada
+- Toronto - Canada
+- Québec City - Canada
+- New-York - USA
+- Boston - USA
+
+Follow the details [on this page](https://firepress.org/en/workshop/).
+
+<br>
+
+
+## Contributing
+
+The power of communities pull request and forks means that `1 + 1 = 3`. You can help to make this repo a better one! Here is how:
+
+1. Fork it
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request
+
+Check this post for more details: [Contributing to our Github project](https://pascalandy.com/blog/contributing-to-our-github-project/). Also, by contributing you agree to the [Contributor Code of Conduct on GitHub](https://pascalandy.com/blog/contributor-code-of-conduct-on-github/). It's plain common sense really.
+
+<br>
+
+
+## License
+
+- This git repo is under the **GNU V3** license. [Find it here](https://github.com/pascalandy/GNU-GENERAL-PUBLIC-LICENSE/blob/master/LICENSE.md). There are "plain English" explanations for this license that are worth understanding. You'll see, it's pretty cool if you are into OSS (open source software).
+- The Ghost’s software is under the **MIT** license. [Find it here](https://ghost.org/license/).
+
+<br>
+
+
+## Sources & Fork
+
+- This Git repo is available at https://github.com/firepress-org/FirePress_London
+- This project was forked from https://github.com/TryGhost/London
+
+<br>
+
+
+## Why all this work?
+
+Our [mission](https://firepress.org/en/our-mission/) is to empower freelancers and small organizations to build an outstanding mobile-first website.
+
+Because we believe your website should speak up in your name, we consider our mission completed once your site has become your impresario.
+
+For more info about the man behind the startup, check out my [now page](https://pascalandy.com/blog/now/). You can also follow me on Twitter [@askpascalandy](https://twitter.com/askpascalandy).
+
+— The FirePress Team 🔥📰
