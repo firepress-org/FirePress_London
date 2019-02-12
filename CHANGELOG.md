@@ -7,6 +7,10 @@ https://trello.com/b/0fCwwzqc/firepress-public-roadmap
 
 — — — # — — — # — — — # 
 
+# 1.0.5
+
+- Adding a warning
+
 # 1.0.4
 
 - minor readme update

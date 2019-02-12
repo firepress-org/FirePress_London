@@ -2,7 +2,7 @@
   "name": "FirePress_London",
   "description": "A minimum, image-centric theme for Ghost. This Ghost theme is supported by FirePress. Find more free themes at https://github.com/topics/firepress-ghost-theme",
   "demo": "https://play-with-ghost.com/live-demo-firepress-london-for-barbershops/",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "engines": {
     "ghost": ">=2.0.0",
     "ghost-api": "v2"

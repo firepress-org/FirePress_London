@@ -56,6 +56,8 @@ In short, you can try Ghost on the spot without having to sign-up!
 - **Code Injection** — We share snippets that improve the look of this theme via this [Git repo](https://github.com/firepress-org/Code-Injection-Ghost). It’s an easy way to customize this theme. This allows you to override pretty much any styles you want to change.
 - **Curated** — This theme was carefully selected out of hundreds of Ghost themes. See more of them in our [Ghost-Theme-Curated-Collection ](https://github.com/firepress-org/Ghost-Theme-Curated-Collection/tree/master/01_go) repo, or [by tags on Github](https://github.com/topics/firepress-ghost-theme).
 
+⚠️ Warning: Subscribers is a beta feature **not supported** in this theme at present. Likely will be replaced with something new in the near future. [See issue](https://github.com/TryGhost/London/issues/3).
+
 <br>
 
 
