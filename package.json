@@ -6,7 +6,7 @@
   "engines": {
     "ghost": ">=2.0.0",
     "ghost-api": "v2"
-  },
+},
   "license": "MIT",
   "screenshots": {
     "desktop": "Check out the git repo",
