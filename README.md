@@ -26,8 +26,6 @@ This theme is a free and responsive theme (*template if you prefer*) made for Gh
 
 **What is Ghost?** — Ghost is an open source software that lets you create a website and manage content like a blog. [See our FAQ section](https://firepress.org/en/faq/#what-is-ghost) for more details.
 
-**Live demo** — This theme is available on play-with-ghost.
-
 <br>
 
 
