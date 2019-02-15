@@ -13,8 +13,7 @@
   outline: none;
   text-decoration: none;
   background: #202020;
-  font-size: 0.80em;
-  font-weight: 600;
+  font-size: 0.85em;
   text-align: center;
   text-decoration: none !important;
   vertical-align: top;
@@ -144,11 +143,6 @@
   border-radius: 6px;
 }
 
-.btn_c.actionbtn_c svg,
-.slide.whiteSlide .btn_c.actionbtn_c svg {
-  fill: #fff;
-}
-
 .btn_c.actionbtn_c.sound [class*="sound-"] {
   position: absolute;
   opacity: 0;
@@ -231,10 +225,6 @@
   border: 2px solid;
   background-color: transparent !important;
   padding: 14px 22px 15px;
-}
-
-.slide.whiteSlide .btn_c.stroke {
-  color: #202020;
 }
 
 .btn_c.stroke.round {
@@ -466,14 +456,6 @@
   background: linear-gradient(to bottom, #fff 0%, #000 100%);
   z-index: -1;
   opacity: 0.1;
-}
-
-.slide.whiteSlide .btn_c.white:hover {
-  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1), 0 1px 10px 0 rgba(0, 0, 0, 0.1);
-}
-
-.slide.whiteSlide .btn_c.white:hover:after {
-  opacity: .3;
 }
 
 .roundbtn_c {

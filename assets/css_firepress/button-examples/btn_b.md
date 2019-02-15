@@ -1,5 +1,15 @@
 # Button | Style B
 
+⚠️ WARNING, don't use as it will be deprecated
+
+⚠️ WARNING, don't use as it will be deprecated
+
+⚠️ WARNING, don't use as it will be deprecated
+
+⚠️ WARNING, don't use as it will be deprecated
+
+⚠️ WARNING, don't use as it will be deprecated
+
 ## Basic
 
 <a class="btn_b btn_b-primary btn_b-rounded" href="<https://firepress.org/">Buy Tickets</a>
