@@ -26,7 +26,6 @@
   white-space: nowrap;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1)!important;
   -webkit-appearance: none;
   margin-bottom: 10px;
   transition: 0.3s;
@@ -36,6 +35,8 @@
   user-select: none !important;
   margin-left: 2px;
   margin-right: 7px;
+  border-bottom: 0px !important;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1) !important;
 }
 
 .btn_c.wide {
