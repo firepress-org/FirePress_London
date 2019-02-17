@@ -20,6 +20,10 @@ https://gist.github.com/pascalandy/af709db02d3fe132a3e6f1c11b934fe4
 
 ---
 
+## 1.0.7
+### 🐛 Bug fixed
+- Fixed buttons style. It makes them more usable universally
+
 
 ## 1.0.6
 ### 🐛 Bug fixed
